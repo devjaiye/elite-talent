@@ -1,10 +1,12 @@
 <template>
     <div>
-        <WorkPreferences />
+        <WorkPreferencesMain/>
     </div>
 </template>
 
 <script setup>
+
+
 
 </script>
 

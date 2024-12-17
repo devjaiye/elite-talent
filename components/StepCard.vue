@@ -23,7 +23,7 @@
                     </p>
                 </div>
                 <div class="ml-auto">
-                    <NuxtLink  :to="`/workpreferences`"
+                    <NuxtLink  :to="`/work-preferences`"
                         class="bg-[#0B6CF4] text-white px-10 py-2.5 rounded-lg text-sm font-medium text-center cursor-pointer">Start
                         Now</NuxtLink>
                 </div>
@@ -53,7 +53,7 @@
                     </p>
                 </div>
                 <div class="ml-auto">
-                    <NuxtLink to=""
+                    <NuxtLink to="/elite-application"
                         class="bg-[#0B6CF4] text-white px-10 py-2.5 rounded-lg text-sm font-medium text-center">Start
                         Now</NuxtLink>
                 </div>
