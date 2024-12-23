@@ -15,6 +15,7 @@
     "@formkit/vue": "^1.6.9",
     "@headlessui/vue": "^1.7.23",
     "@heroicons/vue": "^2.2.0",
+    "@nuxtjs/svg": "^0.4.1",
     "nuxt": "^3.14.1592",
     "vue": "latest",
     "vue-router": "latest"

@@ -1,8 +1,8 @@
 <template>
   <div class="py-10 bg-gray-50 px-10">
-    <div class="mb-4 flex justify-between">
+    <div class="mb-4 flex justify-between max-w-6xl mx-auto">
       <div>Back</div>
-      <div class="flex-col">
+      <div class="flex-col flex-1 mx-auto max-w-md">
         <h2 class="text-xl font-bold mb-2">Join Elite</h2>
         <p class="text-sm">Please fill in the relevant details to apply to join Elite</p>
       </div>
@@ -11,7 +11,6 @@
         {{ currentStep === steps.length - 1 ? 'Finish' : 'Save & Continue' }}
       </button>
     </div>
-    <!-- Header progress -->
 <!-- Header progress -->
 <div class="flex max-w-xl mx-auto justify-center mb-4 items-center mt-6 space-x-4 text-gray-400">
   <!-- Step 1 -->
