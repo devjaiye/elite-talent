@@ -27,8 +27,9 @@
             <span class="text-gray-700 text-sm font-medium">
               As an Independent Contractor/ SoleTrader
               <span class="block text-sm text-gray-500">Pick this if you are self-employed</span>
-              <NuxtLink to="#" class="text-elite-blue font-semibold underline text-xs">Check if you will be classified
-                as a Sole trader</NuxtLink>
+              <button @click="toggleClassifiedModal" class="text-elite-blue font-semibold underline text-xs cursor-pointer">
+                Check if you will be classified as a Sole trader
+              </button>
             </span>
           </label>
 
@@ -137,7 +138,7 @@
         </div>
       </div>
 
-
+      <ContractComplianceClassifiedModal v-if="open"  @close="toggleClassifiedModal" />
     </div>
   </div>
 </template>
@@ -155,6 +156,12 @@ const availability = [
   { id: 4, name: 'Contract' },
 ]
 
+const open = ref(false)
+
 const selectedAvailability = ref(availability[1])
+
+const toggleClassifiedModal = () =>{
+ open.value = !open.value
+};
 
 </script>

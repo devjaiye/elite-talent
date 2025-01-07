@@ -42,7 +42,6 @@
   
   <script setup>
     
-
       const tabs = ["Draw", "Type", "Upload"]
       const selectedTab = ref(0)
   
